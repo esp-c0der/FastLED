@@ -20,6 +20,6 @@ set(FastLED_SRCS
 
 idf_component_register(SRCS ${FastLED_SRCS}
                        INCLUDE_DIRS "src"
-                       REQUIRES arduino)
+                       REQUIRES arduino-esp32)
 
 project(FastLED)
